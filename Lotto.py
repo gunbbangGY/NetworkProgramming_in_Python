@@ -7,4 +7,12 @@ while len(pick) < 6 :
 
 print(pick)
 print(sorted(pick))
-'''print(pick.sort())'''
+
+Lpick = []
+while len(Lpick) < 6 :
+    n = random.randint(1, 45)
+    if n not in Lpick :
+        Lpick.append(n)
+
+print(pick)
+print(sorted(pick))
